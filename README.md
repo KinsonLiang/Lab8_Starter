@@ -7,6 +7,6 @@
 
 2. No, we should use a unit test for it. Unit tests can ensure the individual components and functions can be returning the correct values.
 
-3. Unit tests can only determine whether a particular output of that function is correct. With E2E style tests, messaging functions can be better tested because conveying a message to another user involves multiple steps. These steps can include getting the right user, sending and receiving the right message, and so on.
+3. No, unit tests can only determine whether a particular output of that function is correct. With E2E style tests, messaging functions can be better tested because conveying a message to another user involves multiple steps. These steps can include getting the right user, sending and receiving the right message, and so on.
 
 4. Yes, this feature has only one part, message length, which can be easily verified by checking for strings containing messages of length 80 or less.
